@@ -1,0 +1,24 @@
+.home, .game {
+ min-height: 100vh;
+ position: relative;
+ padding-top: 3rem;
+ background: #B993D6;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ h1 {
+  font-weight: 700;
+ }
+ h1,h2 {
+  color: #fff;
+ }
+ .start {
+  margin-top: 5rem;
+ }
+}
+
+//BOOTSTRAP CUSTOM
+.b-rating.form-control {
+ background-color: transparent;
+ border: none;
+}
